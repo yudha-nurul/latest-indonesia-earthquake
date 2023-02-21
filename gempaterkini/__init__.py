@@ -77,3 +77,9 @@ def tampilkan_data(hasilnya):
     print(hasilnya['pusat gempa'])
     print(hasilnya['dirasakan'])
 
+if __name__ == '__main__':
+    result = ekstraksi_data()
+    if result is None:
+        print('program berhenti')
+    else:
+        tampilkan_data(result)
