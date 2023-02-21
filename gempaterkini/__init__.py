@@ -80,6 +80,6 @@ def tampilkan_data(hasilnya):
 if __name__ == '__main__':
     result = ekstraksi_data()
     if result is None:
-        print('program berhenti')
+        print('there is no data to display')
     else:
         tampilkan_data(result)
